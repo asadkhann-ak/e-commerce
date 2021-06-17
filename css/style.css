@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background: #F5CDBB;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/*common css end*/
+.sliderr {
+    position: relative;
+}
+
+.bt {
+    position: absolute;
+    left: 54%;
+    top: 0;
+    z-index: 2;
+
+
+}
+
+.bt a {
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all linear .4s;
+    width: 100%;
+}
+
+.bt a:hover {
+    background: #0840fa;
+    color: #f1f1f1;
+}
+
+
+/*
+
+.asad {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+
+}
+*/
+
+
+.elec_dev {
+    position: relative;
+}
+
+
+.asad {
+    position: absolute;
+    left: 179px;
+    top: 0;
+/*    z-index: 2;*/
+    text-align: center;
+    width: 200px;
+    display: none;
+    padding-left: 0;
+    background-color: #fff;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+
+}
+
+.elec_dev:hover .asad{
+    display: inherit;
+}
+
+/*slider part end*/
+
+/*new part start*/
+.new ul li {
+    float: left;
+
+}
+
+.new ul li a {
+    margin-right: 100px;
+    border-radius: 30% 10px;
+    padding: 15px;
+    height: 63px;
+    width: 150px;
+    text-decoration: none;
+    color: #070707;
+    background: rgba(21, 253, 11, 0.87);
+    text-align: center;
+}
+
+.new ul li a:hover {
+
+    color: #f24f4f;
+}
+
+.new ul li a i {
+    background: rgba(21, 253, 11, 0.87);
+    padding-right: 8px;
+}
+
+/*new part end*/
+/*ফ্ল্যাশসেল part start*/
+.ফ্ল্যাশসেল a {
+    text-decoration: none;
+}
+
+
+.ফ্ল্যাশসেল a:hover {
+    box-shadow: 6px 14px 12px 6px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 6px 14px 12px 6px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 6px 14px 12px 6px rgba(0, 0, 0, 0.77);
+}
+
+/*=============end================*/
+/*সংগ্রহগুলি*/
+
+.সংগ্রহগুলিa a {
+    text-decoration: none;
+}
+
+.সংগ্রহগুলিa a:hover {
+    box-shadow: 6px 14px 12px 6px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 6px 14px 12px 6px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 6px 14px 12px 6px rgba(0, 0, 0, 0.77);
+}
+
+/*সংগ্রহগুলি*/
+/*footer part start*/
+.footer-full {
+    background: #000;
+    padding: 47px 0 60px;
+
+}
+
+.Customer-Care-text {
+
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.Customer-Care-text h3 {
+    text-transform: uppercase;
+}
